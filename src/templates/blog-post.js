@@ -34,7 +34,7 @@ const BlogPost = props => {
       <div className={postStyles.content}>
         <h1>{props.data.markdownRemark.frontmatter.title}</h1>
         <span className={postStyles.meta}>
-          Posted on {props.data.markdownRemark.frontmatter.date}{" "}
+          My Posted on {props.data.markdownRemark.frontmatter.date}{" "}
           <span> / </span> {props.data.markdownRemark.timeToRead} min read
         </span>
 
